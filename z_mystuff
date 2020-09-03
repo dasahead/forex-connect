@@ -1,0 +1,2 @@
+php artisan migrate:fresh --path=/database/migrations/2020_08_09_180637_create_initial_tables.php
+where([['usermail', '=', Auth::user()->email],['property', '=', 7]])
